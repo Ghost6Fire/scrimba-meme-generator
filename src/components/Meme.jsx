@@ -36,8 +36,6 @@ function Meme() {
     }));
   }
 
-  console.log(allMemes);
-
   return (
     <div>
       <form className="meme-form" onSubmit={handleSubmit}>
